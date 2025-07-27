@@ -71,7 +71,7 @@ Using Tableau’s analytics, the dashboard tracks supplier lead times and identi
 Below are explanations of some critical columns used in the dataset:
 
 - **Reorder Point:**  
-  The stock level at which a new order should be placed to replenish inventory before it runs out. Helps prevent stockouts.
+  The stock level at which a new order should be placed to replenish inventory before it runs out. Helps prevent stockouts. When current stock (Stock Quantity) falls below or equals the Reorder Point, it signals that it's time to reorder.
 
 - **Lead Time Days:**  
   The number of days between placing an order with a supplier and receiving the stock. Affects when to trigger reorders.
